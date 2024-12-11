@@ -12,11 +12,10 @@ import { addToCart } from "../rtk/slices/cart-slice";
 export default function Products() {
   const dispatch = useDispatch();
   const productsStore = useSelector((state) => state.products);
-  const cartStore = useSelector((state) => state.cart);
 
   useEffect(() => {
     dispatch(fetchProducts());
-  }, []);
+  }, [dispatch]);
 
   return (
     <Container>
