@@ -10,7 +10,7 @@ function AppNavbar() {
     <Navbar expand="lg" fixed="top" className="bg-body-tertiary">
       <Container>
         <Link className="navbar-brand" to="/">
-          Diab_Store
+          Diab_Store_2
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
